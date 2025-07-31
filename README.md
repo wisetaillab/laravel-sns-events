@@ -1,13 +1,11 @@
-Laravel SNS Events
-==================
+Laravel SNS Events (WiseTailLab Fork)
+=====================================
 
-![CI](https://github.com/renoki-co/laravel-sns-events/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/renoki-co/laravel-sns-events/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/laravel-sns-events/branch/master)
-[![StyleCI](https://github.styleci.io/repos/189254977/shield?branch=master)](https://github.styleci.io/repos/189254977)
-[![Latest Stable Version](https://poser.pugx.org/rennokki/laravel-sns-events/v/stable)](https://packagist.org/packages/rennokki/laravel-sns-events)
-[![Total Downloads](https://poser.pugx.org/rennokki/laravel-sns-events/downloads)](https://packagist.org/packages/rennokki/laravel-sns-events)
-[![Monthly Downloads](https://poser.pugx.org/rennokki/laravel-sns-events/d/monthly)](https://packagist.org/packages/rennokki/laravel-sns-events)
-[![License](https://poser.pugx.org/rennokki/laravel-sns-events/license)](https://packagist.org/packages/rennokki/laravel-sns-events)
+[![Latest Stable Version](https://poser.pugx.org/wisetaillab/laravel-sns-events/v/stable)](https://packagist.org/packages/wisetaillab/laravel-sns-events)
+[![Total Downloads](https://poser.pugx.org/wisetaillab/laravel-sns-events/downloads)](https://packagist.org/packages/wisetaillab/laravel-sns-events)
+[![License](https://poser.pugx.org/wisetaillab/laravel-sns-events/license)](https://packagist.org/packages/wisetaillab/laravel-sns-events)
+
+> **Note:** This is a fork of the original [renoki-co/laravel-sns-events](https://github.com/renoki-co/laravel-sns-events) package, maintained by WiseTailLab to provide enhanced Laravel version support (10, 11, 12) and additional features needed for our projects.
 
 Laravel SNS Events eases the processing of incoming SNS webhooks using Laravel Events. It leverages a controller that is made to properly listen to SNS HTTP(s) webhooks and trigger events on which you can handle in Laravel, so you just have to focus on writing your logic to handle the events.
 
